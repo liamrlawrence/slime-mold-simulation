@@ -1,0 +1,29 @@
+//CODE//
+https://openframeworks.cc/
+https://www.google.com/search?q=GLSL
+
+//EXAMPLES//
+https://sagejenson.com/physarum				        - artist's implementation
+https://ch3.gr/						                - other artist's implementation
+https://www.youtube.com/watch?v=CetDSun9hfk		    - moving mesh noise
+https://www.youtube.com/watch?v=kYejiSrzFzs&t=664s	- sinewave animation
+
+//PAPERS//
+https://uwe-repository.worktribe.com/output/980579	- slimemold simulation
+https://en.wikipedia.org/wiki/Physarum_polycephalum	- wikipedia
+
+
+Save starting configurations as images, on import the program will automatically detect the
+- size of the image and set that as the boundaries
+-      if a point is HSV(0, 0, 0) it is empty
+- else if a point is HSV(0, 0, 100) it is a food source
+- else if a point is hsv(0, 0, 50) it is a wall(?) todo - implement!
+- else the point is an agent who's angle is equal to the point's hue's angle
+- TODO: the parameters of the model which are stored in the image's Comment keyword (create function foo(FILE *fp, struct params_to_store))
+(https://www.w3.org/TR/2003/REC-PNG-20031110/#11Ancillary-chunks, https://www.w3.org/TR/PNG/#11textinfo)
+(https://stackoverflow.com/questions/57553641/how-to-save-dpi-info-in-py-opencv)
+
+try making a ring!
+https://www.google.com/search?q=rainbow+torus&client=firefox-b-1-d&sxsrf=ALeKk00ixzvm7ekq_OUHnACzGbXeH0Gm0A:1616997657752&source=lnms&tbm=isch&sa=X&ved=2ahUKEwikifjX6dTvAhXaW80KHcP4B_oQ_AUoAnoECAEQBA&biw=878&bih=921#imgrc=uh3GKi2rL_t_ZM
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F474x%2F5f%2F13%2F71%2F5f1371353d790e1848d38cce749bc503.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fyahayabello39%2Fsacred-geometry%2F&tbnid=9F2fjVr8VxJnPM&vet=10CA4QxiAoCmoXChMIiPW99OnU7wIVAAAAAB0AAAAAEA0..i&docid=-QNH1tK2x0-qLM&w=474&h=474&itg=1&q=rainbow%20torus&client=firefox-b-1-d&ved=0CA4QxiAoCmoXChMIiPW99OnU7wIVAAAAAB0AAAAAEA0
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F474x%2F5f%2F13%2F71%2F5f1371353d790e1848d38cce749bc503.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fyahayabello39%2Fsacred-geometry%2F&tbnid=9F2fjVr8VxJnPM&vet=10CA4QxiAoCmoXChMIiPW99OnU7wIVAAAAAB0AAAAAEA0..i&docid=-QNH1tK2x0-qLM&w=474&h=474&itg=1&q=rainbow%20torus&client=firefox-b-1-d&ved=0CA4QxiAoCmoXChMIiPW99OnU7wIVAAAAAB0AAAAAEA0#imgrc=9F2fjVr8VxJnPM&imgdii=xVjl9-4jafGmfM
